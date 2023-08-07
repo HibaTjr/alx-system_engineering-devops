@@ -1,2 +1,2 @@
 #!/bin/bash
-num_dirs=$(find . -type d | wc -l); echo "Number of directories and sub-directories: $num_dirs"
+find . -type d | wc -l
